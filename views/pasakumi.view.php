@@ -4,6 +4,7 @@
 <?php
     require "components/navbar.php";
 ?>
+<h1>Pasakumi Cesis</h1>
 <ul>
         <?php foreach($pasakumi as $pasakums){ ?>
         <li><?= $pasakums["datums"]." / ".$pasakums["nosaukums"]." / ".$pasakums["vieta"]?></li>

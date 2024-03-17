@@ -9,3 +9,7 @@ if($url == "/"){
 if($url == "/kolektivi"){
     require "controllers/kolektivi.php";
 }
+
+if($url == "/create"){
+    require "controllers/create.php";
+}
