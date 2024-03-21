@@ -10,6 +10,10 @@ if($url == "/kolektivi"){
     require "controllers/kolektivi.php";
 }
 
-if($url == "/create"){
-    require "controllers/create.php";
+if($url == "/create-pasakums"){
+    require "controllers/pasakumi-create.php";
+}
+
+if($url == "/create-kolektivs"){
+    require "controllers/kolektivi-create.php";
 }
